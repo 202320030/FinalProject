@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+      *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          text-decoration: none;
+          text-transform: capitalize;
+          list-style: none;
+          outline: none;
+          border: none;
+          transition: all 0.3s linear;
+          font-family: 'Poppins', sans-serif;
+          text-transform: uppercase;
+      }
+      html{
+          overflow-x: hidden;
+          scroll-behavior: smooth;
+      }
+      body{
+         font-size: 65%;
+         background-color: #6b6b6b; 
+      }
+      :root{
+          --bg: #ffb320;
+          --color: #212529;
+      }
+      .navbar{
+          background: var(--color);
+      }
+      .home img{
+          min-height: 90vh;
+          object-fit: cover;
+          position: relative;
+      }
+      .home .content{
+          position: absolute;
+          top: 50%;
+          left: 15%;
+          transform: translateY(-50%);
+      }
+      .home p{
+          line-height: 2;
+      }
+      img{
+          width: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+      }
+
+      .section-title{
+        text-align: center;
+        padding: 5px;
+        padding-top: 50px;
+      }
+
+
+      .review{
+        color: #9e9e9e;
+        padding: 10px;
+        font-size: 13px;
+
+      }
+
+      .review-title{
+        padding-top: 10px;
+      }
+
+      .info{
+        padding-top: 10px;
+      }
+
+
+      .btn .btn-warning :hover{
+        background-color: #ffb320;
+        opacity: 50%;
+      }
+
+      .games{
+          background-image: url(../images/recent-game-bg.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+          
+      }
+      .tour{
+          background-image: url(../images/pattern.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 28rem;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          margin-bottom: 4rem;
+      }
+      .tour img{
+          height: 100%;
+      }
+      .tour h5{
+          color: var(--bg);
+          padding: 10px;
+      }
+      .tour span{
+          line-height: 2;
+      }
+      .tour h6{
+          color: var(--bg);
+          padding: 10px 0;
+          font-size: 8px;
+      }
+      .reviews{
+          background-image: url(../images/review-bg.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+          
+      }
+      .reviews span{
+          position: absolute;
+          top: -15px;
+          left: 20px;
+          border-radius: 50%;
+          font-size: 13px;
+          padding: 5px;
+      }
+      .footer{
+          background-image: url(../images/pattern.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+          padding: 3rem 0;
+      }
+      .footer .title img{
+          width: 80px;
+      }
+      .footer h3{
+          color:#fff;
+          padding:20px;
+          font-size: 20px;
+      }
+      .footer h6{
+          color:var(--bg);
+          padding: 5px 10px;
+          font-size: 13px;
+      }
+      .footer p{
+          color:#9e9e9e;
+          padding: 5px 10px;
+          font-size: 8px;
+      }
+      @media(max-width: 600px){
+          html{
+              font-size: 50%;
+          }
+          .navbar .log{
+              display: none;
+          }
+          .tour{
+              margin: 45rem 0;
+              background: #9e9e9e;
+          }
+      }
